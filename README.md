@@ -4,14 +4,14 @@
 </p>
 <div align="center">
   <p align="center">
-<img src=https://i.imgur.com/w89FHm7.jpeg>
+<img src=https://i.imgur.com/ZzqO1v5.jpeg>
 </p>
   <p align="center">
-<a href="https://github.com/Amal-ser"><img title="Author" src="https://img.shields.io/badge/Author-Amal-ser/Amalser?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Kichu244"><img title="Author" src="https://img.shields.io/badge/Author-Kichu-Mon/Amalser?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/Amal-ser">Amal-ser</a> to make it public
+Project created by <a href="https://github.com/Kichu244">Kichu244</a> to make it public
     <br>
        | © |
         Reserved |
@@ -34,7 +34,7 @@ https://www.instagram.com/p/CCdcH3FBd1a/?utm_medium=copy_link
 
   ### Simple Method
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Amal-ser/Amalser.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kichu244/BM-AMLV1.git)
 
 
 
