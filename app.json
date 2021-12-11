@@ -218,18 +218,18 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "_Hey I'm BoT MwoL_☺️
+            "value": "_Hey I'm BoT MwoL_☺️"
 
-*A Chat Bot😉You Can Msg Me At AnyTime*
 
-*_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋɪᴄʜᴜ-ᴇᴅɪᴛꜱ_* {owner}
 
-Follow Me On:
 
-IG: Kichu_edits.efx {pp} 
 
-*~----------------------------~*"
-        },
+
+
+
+
+
+},
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
