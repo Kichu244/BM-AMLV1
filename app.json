@@ -18,7 +18,8 @@
         },
          "YT_PASSWORD": {
             "description": "enter the password, to get password watch https://youtu.be/fd0KPblop-k .",
-            "required": true
+            "required": true,
+             "value": "afamk"
         },
         "LANGUAGE": {
             "description": "Bot language.English => en",
@@ -73,7 +74,7 @@
         "ANTİ_LİNK": {
             "description": "Link Blocking System.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "FAKE_REMOVE": {
             "description": "Fake number removing.",
@@ -209,7 +210,8 @@
         },
         "DEPLOYER": {
             "description": "enter your name here",
-            "required": false
+            "required": false,
+            "valuue": "Kichu"
         },
         "REMOVE_BG_API_KEY": {
             "description": "https://remove.bg",
@@ -218,7 +220,27 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "_Hey I'm BoT MwoL_☺️"
+            "value": "_Hey I'm BoT MwoL_☺️
+
+*`=› A Chat Bot😉You Can Msg Me At AnyTime*
+
+*``=› I'm Here For Your Message*
+
+*``=› If I'm Not Working Contact My Creator:- https://wa.me/+918547487332*
+
+*``=› If You Want To Join My Whatsapp Group.*
+
+*``=› Link :- _https://chat.whatsapp.com/GbVchReBf07GjmCcLUAJXr_*
+
+      *``_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋɪᴄʜᴜ-ᴇᴅɪᴛꜱ_* {pp}
+
+Follow Me On:
+
+IG: Kichu_edits.efx  
+
+*~===============================~*
+
+               ````How Can I Help You🙂```"
 
 
 
