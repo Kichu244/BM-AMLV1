@@ -22,14 +22,10 @@ Project created by <a href="https://github.com/Kichu244">Kichu244</a> to make it
 <div align="center"> 
 
 
-## Click Youtube logo to Watch full video and findout password in this video 👇
-
- [![ANY DOUBT REFER IT](https://www.linkpicture.com/q/YouTube-Logo-700x394.png)](https://youtu.be/Tb1B-rS52uo)
-
 
 ## Instagram  Follow ❤️
 
-https://www.instagram.com/p/CCdcH3FBd1a/?utm_medium=copy_link
+https://www.instagram.com/invites/contact/?i=v5dwzi6xb68r&utm_content=mktgo1n
 
 
   ### Simple Method
@@ -46,8 +42,8 @@ https://www.instagram.com/p/CCdcH3FBd1a/?utm_medium=copy_link
 GET QR
 $ apt install git
 $ apt install nodejs --fix-missing
-$ git clone https://github.com/Amal-ser/Amalser
-$ cd Amalser
+$ git clone https://github.com/Kichu244/BM-AMLV1
+$ cd BM-AMLV1
 $ npm install @adiwajshing/baileys
 $ npm install chalk
 $ node Amalser.js
@@ -55,8 +51,8 @@ $ node Amalser.js
       
 ```js
 SETUP
-$ git clone https://github.com/Amal-ser/Amalser
-$ cd Amalser
+$ git clone https://github.com/Kichu244/BM-AMLV1
+$ cd BM-AMLV1
 $ npm i
 $ node Amalser.js
 ```
