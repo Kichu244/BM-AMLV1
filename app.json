@@ -179,7 +179,7 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "*_•━━━━╼=› BotMwol ‹=╾━━━•_*"
+            "value": "*_•😈==› KICHU ‹==😈•_*"
         },
         "WORK_TYPE": {
             "description": "Botmwol Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -222,7 +222,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "_Hey I'm BoT MwoL_☺️"
+            "value": "_Hello, Bot Mwol Is Alive. Created By Kichu_☺️"
             
 
 
@@ -258,7 +258,7 @@
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "Tata, Bye"
+            "value": "*{mention} Tata, Bye*"
         },
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
@@ -273,7 +273,7 @@
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
-            "value": "_Helo Gooyies🙋🏻‍♂️_"
+            "value": "_Helo Gooyies...🙋🏻‍♂️_"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
@@ -293,7 +293,7 @@
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
             "required": false,
-            "value": "*Entha Pulley, Njamalu bann*"
+            "value": "*I'm Busy Now*"
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
