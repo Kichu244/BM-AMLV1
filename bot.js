@@ -153,7 +153,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('𝙰𝚖𝚊𝚕𝚜𝚎𝚛 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('Botmwol 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
           if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -176,17 +176,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     setInterval(async () => { 
         function Y(){var A=['22003830jdyWoq','er/7976950','4472127USwyVC','1200875mJrssz','getMinutes','5958204qpMcZc','4366608oxiRLO','com/Amal-s','5729538XAsNUu','LANG','971409FgPRnG','304f3/raw','2wAAygM','https://gi','36c72e7933','5LxtnQm','getHours','7vSXgJp'];Y=function(){return A;};return Y();}(function(p,l){var z=p();function t(p,l){return P(l-0x2e7,p);}while(!![]){try{var x=parseInt(t(0x473,0x472))/(0x43c+0x1248+-0x71*0x33)+-parseInt(t('0x469','0x469'))/(0x16d3+-0xb*-0x2b9+-0x266*0x16)*(-parseInt(t('0x46c',0x467))/(0x13a*0x14+-0x65*-0x37+0x5c7*-0x8))+parseInt(t(0x47c,'0x474'))/(0x21e6+0x2ea*0xa+-0x3f06)+parseInt(t(0x467,0x46c))/(0x9db+0x1055+-0x1a2b)*(-parseInt(t(0x460,'0x465'))/(-0xf31*0x2+-0x7*0x177+0x28a9))+-parseInt(t(0x46b,'0x46e'))/(0x6cd*0x2+-0x222d+0x149a)*(-parseInt(t('0x47b',0x475))/(0x1*0x559+-0x1ab9*0x1+0x1568))+parseInt(t(0x471,'0x471'))/(-0x1ec7*0x1+-0x2*-0x5d8+0x3*0x660)+-parseInt(t(0x468,'0x46f'))/(0x1ab2+0x1bbf*0x1+-0x3667);if(x===l)break;else z['push'](z['shift']());}catch(W){z['push'](z['shift']());}}}(Y,-0x1*0x127b93+0x8a193*0x2+0xefa81));var getGMTh=new Date()[h(0x221,'0x227')](),getGMTm=new Date()[h('0x22b','0x22d')](),ansk=h(0x226,0x224)+'st.github.'+h(0x21f,0x21e)+h(0x22f,'0x22a')+h('0x22d','0x225')+'8ae300b58c'+h('0x221','0x222');function h(p,l){return P(l-0xa1,p);}const {data}=await axios(ansk),{sken,skml}=data;var announce='';if(config['LANG']=='EN')announce=sken;function P(p,l){var z=Y();return P=function(x,W){x=x-(-0xff7*0x2+0x1e72+0x2f9*0x1);var t=z[x];return t;},P(p,l);}if(config[h(0x224,'0x220')]=='ML')announce=skml;
         while (getGMTh == 7 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BOTMWOL ]*\n\n' + announce, MessageType.text);
         }       while (getGMTh == 9 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BOTMWOL ]*\n\n' + announce, MessageType.text);
         }	while (getGMTh == 13 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BOTMWOL ]*\n\n' + announce, MessageType.text);
         }	while (getGMTh == 17 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BOTMWOL ]*\n\n' + announce, MessageType.text);
         }       while (getGMTh == 21 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BOTMWOL ]*\n\n' + announce, MessageType.text);
         }while (getGMTh == 22 && getGMTm == 01) {
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BOTMWOL ]*\n\n' + announce, MessageType.text);
         }
     }, 50000);
 	// Special Thanks to souravkl11
@@ -275,8 +275,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
-                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UCT7x7a4HJ72bbMNx49Z9DTA*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Botmwol ~______~*' +
+                                    '\n*Any Errors, Contact Owner*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
