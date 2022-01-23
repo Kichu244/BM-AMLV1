@@ -46,7 +46,7 @@ $ git clone https://github.com/Kichu244/BM-AMLV1
 $ cd BM-AMLV1
 $ npm install @adiwajshing/baileys
 $ npm install chalk
-$ node Amalser.js
+$ node BM-AMLV1.js
 ```
       
 ```js
@@ -54,13 +54,13 @@ SETUP
 $ git clone https://github.com/Kichu244/BM-AMLV1
 $ cd BM-AMLV1
 $ npm i
-$ node Amalser.js
+$ node BM-AMLV1.js
 ```
 
 ----
 
   <p align="center">
-  <a href="httsp://github.com/Amal-ser/Amalser">
+  <a href="httsp://github.com/Kichu244/BM-AMLV1">
     
 <a href="https://github.com/Amal-ser/followers">
 <img src="https://img.shields.io/github/repo-size/Amal-ser/Amalser?color=green&label=Repo%20total%20size&style=plastic">
@@ -76,17 +76,17 @@ $ node Amalser.js
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/CbRlEux876XFsWQfIlOKty)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GbVchReBf07GjmCcLUAJXr)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Amal-ser&repo=Amalser&theme=nightowl)](https://github.com/Amal-ser/Amalser)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Kichu244&repo=BM-AMLV1&theme=nightowl)](https://github.com/Kichu244/BM-AMLV1)
   </div>
     
 ### ⚠ Warning ⚠
 
 ```
 By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
-Amalser_v2 or we are not responsible for your account, 
+BotMwol or we are not responsible for your account, 
 This bot is intended for the purpose of having fun with some fun commands 
 and group management with some helpfull commands.
 
@@ -98,7 +98,7 @@ No personal support will be provided / We won't spoon feed you.
 If you need help
 you can contact 👇🏻👇🏻 
 ```
-**[![Amalser](https://www.linkpicture.com/q/WHTSPP-LOGO.png)](http://wa.me/919895828468?text=Can%20you%20help%20bro)**
+**[![Botmwol](https://www.linkpicture.com/q/WHTSPP-LOGO.png)](http://wa.me/918547487332?text=Can%20you%20help%20bro)**
 
 ## Developers
   <div align="center">
