@@ -1,9 +1,10 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Kichu244/BM-AMLV1.git /root/WhatsAsenaDuplicated
-WORKDIR /root/WhatsAsenaDuplicated/
-ENV TZ=Asia/Kolkata
+RUN git clone https://github.com/Kichu244/BM-AMLV1.git /root/BM-AMLV1
+WORKDIR /root/BM-AMLV1/
+ENV KL=India/Kerala
 RUN npm install supervisor -g
 RUN yarn install --no-audit
+RUN git clone https://github.com/Kichu244/html
 
 CMD ["node", "bot.js"]
