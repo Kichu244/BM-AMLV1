@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Kichu244/BM-AMLV1.git /root/BM-AMLV1
+RUN git clone https://github.com/Kichu244/BM-AMLV1 /root/BM-AMLV1
 WORKDIR /root/BM-AMLV1/
 ENV KL=India/Kerala
 RUN npm install supervisor -g
