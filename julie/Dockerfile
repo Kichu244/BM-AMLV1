@@ -1,11 +1,10 @@
- 
- ​FROM​ KTBwhitedevil:latest 
+ ​FROM​ fusuf/whatsasena:latest 
   
- ​RUN​ git clone https://github.com/Kichu244/BM-AMLV1 /root/whitedevil 
- ​WORKDIR​ /root/BM-AMLV1/  
- ​ENV​ KL=Kerala/India 
+ ​RUN​ git clone https://github.com/Kichu244/BM-AMLV1 /root/WhatsAsenaDuplicated 
+ ​WORKDIR​ /root/WhatsAsenaDuplicated/ 
+ ​ENV​ KL=India/Kerala 
  ​RUN​ npm install supervisor -g 
- ​RUN​ yarn install --no-audit 
- ​RUN​ git clone https://github.com/Kichu244/html 
+ ​RUN​ yarn install --no-audit
+ RUN​ git clone https://github.com/Kichu244/html
   
- ​CMD​ [​"node"​,​"BotMwol"​, ​"bot.js"​]
+ ​CMD​ [​"node"​, ​"bot.js"​]
