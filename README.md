@@ -35,7 +35,7 @@ https://www.instagram.com/invites/contact/?i=v5dwzi6xb68r&utm_content=mktgo1n
 
 
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Kichu244/Amalser)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Kichu244/Amalser-2)
   
 ### The Hard Method
 ```js
