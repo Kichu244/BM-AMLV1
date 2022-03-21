@@ -109,25 +109,26 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     conn.on('open', async () => {
         console.log(
             chalk.green.bold('✅ Login successful!')
-        );
-        console.log(
-            chalk.blueBright.italic('Confirming password...')
-        );
-        if (config.AFPLK == 'amalser' || config.AFPLK == 'afamk' || config.AFPLK == 'vava' || config.AFPLK == 'Amalser') {
-        //thanks to afnanplk
-        console.log(
-            chalk.green.bold('thanks for watching -key cofirmed-')
-        );
-         }
-         else if (config.AFPLK !== 'amalser' || config.AFPLK !== 'afamk' || config.AFPLK !== 'vava' || config.AFPLK !== 'Amalser') {
-         console.log(
-            chalk.red.bold('make sure you have typed the correct password'));
-         throw new Error("Password Error ⚠⚠ ");         
-         return; //created by afnanplk
-         }
+       );
 
         console.log(
             chalk.blueBright.italic('⬇️ Installing external plugins...')
+        );
+
+        var plugins = await plugindb.PluginDB.findAll();
+        plugins.map(async (plugin) => {
+            if (!fs.existsSync('./plugins/' + plugin.dataValues.name + '.js')) {
+                console.log(plugin.dataValues.name);
+                var response = await got(plugin.dataValues.url);
+                if (response.statusCode == 200) {
+                    fs.writeFileSync('./plugins/' + plugin.dataValues.name + '.js', response.body);
+                    require('./plugins/' + plugin.dataValues.name + '.js');
+                }     
+            }
+        });
+
+        console.log(
+            chalk.blueBright.italic('⬇️Installing plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
