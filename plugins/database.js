@@ -19,8 +19,8 @@ var plk_here = new Date().toLocaleDateString(get_localized_date)
 var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'
 	const buttons = [
 
-        {buttonId: 'id1', buttonText: {displayText: 'OWN\n\n*I'm A Public Bot*\n\n*Created By Kichu*\n\n*Bot Name: Bot Mwol*\n\n*Developer :- Amalser*\n\n*I'm A Modified Version Of Amalser.*\n\n*Git Link of Bot Mwol :- Not Available*\n*Any Doubts, Contact My Creator.*\n\n*Type .owner for Creator Details*\n\n*Type .alive for Some Information*\n\n*Type .menu for Command List*\n\n*Thank You By BOT MWOL*\n\n '}, type: 1},
-        {buttonId: 'id2', buttonText: {displayText: 'GIT\n\n```*Helo Bro/Sis*```\n\n```Git Hub Link Is Not Available```\n\n```_Because Bot Mwol Is Private Now._```\n\n```*Kichu(Creator)Only Can Use Me,Sorry*```\n'  }, type: 1},
+        {buttonId: 'id1', buttonText: {displayText: "OWN\n\n*I'm A Public Bot*\n\n*Created By Kichu*\n\n*Bot Name: Bot Mwol*\n\n*Developer :- Amalser*\n\n*I'm A Modified Version Of Amalser.*\n\n*Git Link of Bot Mwol :- Not Available*\n*Any Doubts, Contact My Creator.*\n\n*Type .owner for Creator Details*\n\n*Type .alive for Some Information*\n\n*Type .menu for Command List*\n\n*Thank You By BOT MWOL*\n\n "}, type: 1},
+        {buttonId: 'id2', buttonText: {displayText: "GIT\n\n```*Helo Bro/Sis*```\n\n```Git Hub Link Is Not Available```\n\n```_Because Bot Mwol Is Private Now._```\n\n```*Kichu(Creator)Only Can Use Me,Sorry*```\n"  }, type: 1},
 
       ]
       
