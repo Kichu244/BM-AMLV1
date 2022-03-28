@@ -54,7 +54,7 @@ if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
+    if (therikick_var == 'true' && message.jid !== '120363021605843189@g.us') {
         let regex1 = new RegExp('thayoli')
         let regex2 = new RegExp('Myre')
         let regex3 = new RegExp('kundan')
@@ -70,6 +70,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex13 = new RegExp('kundi')
         let regex14 = new RegExp('fuck')
         let regex15 = new RegExp('kundi')
+        let regex16 = new RegExp('Myr')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
@@ -189,6 +190,13 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
             if (us) return;
             await message.client.groupRemove(message.jid, [message.data.participant]);         
             await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
-        }               
+        }              
+         else if (regex16.test(message.message)) {
+            var us = await checkUsAdmin(message)
+            var us = await checkUsAdmin(message)
+            if (!im) return;
+            if (us) return;
+            await message.client.groupRemove(message.jid, [message.data.participant]);         
+            await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
     }
 }));
