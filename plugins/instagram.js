@@ -1,6 +1,6 @@
  
- ​const​ ​Asena​ ​=​ ​require​(​"../Utilis/events"​) 
- ​const​ ​{​ MessageType​,​ Mimetype ​}​ ​=​ ​require​(​"@adiwajshing/baileys"​) 
+ ​const​ ​Julie​ ​=​ ​require​(​"../Utilis/events"​) 
+ ​const​ ​{​ MessageType​,​ Mimetype ​}​ ​=​ ​require​(​"@adiwajshing/baileys"​) 
  ​const​ ​{​ getBuffer​,​ igStory​,​ downVideo ​}​ ​=​ ​require​(​"../Utilis/download"​) 
  ​const​ ​{​ instagram ​}​ ​=​ ​require​(​"../Utilis/Misc"​) 
  ​const​ ​Language​ ​=​ ​require​(​"../language"​) 
