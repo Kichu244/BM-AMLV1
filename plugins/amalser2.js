@@ -163,9 +163,9 @@ if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
+    if (antilink_var == 'true' && message.jid !== '120363021605843189@g.us') {
         let regex1 = new RegExp('http://')
-        let regex2 = new RegExp('https://')
+        let regex2 = new RegExp('https://chat.whatsapp.com')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
