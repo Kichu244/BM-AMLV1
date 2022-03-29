@@ -44,14 +44,14 @@ async function notheri() {
 }
 notheri()
 var ldc = ''
-if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
-if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*Dont use badwords....* \n 😅 *Dont share other groups links here....* \n *No warning ⚠️ After kick i will say* 😅😅'
-if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
+if (Config.LANG == 'AZ') ldc = '*Ba─Яlant─▒ A┼Яkarland─▒!*'
+if (Config.LANG == 'TR') ldc = '*тАОLink Tespit Edildi!*'
+if (Config.LANG == 'EN') ldc = '*Dont use badwords....* \n ЁЯШЕ *Dont share other groups links here....* \n *No warning тЪая╕П After kick i will say* ЁЯШЕЁЯШЕ'
+if (Config.LANG == 'ML') ldc = '*р┤▓р┤┐р┤Щр╡Нр┤Хр╡Н р┤Хр┤гр╡Нр┤Яр╡Жр┤др╡Нр┤др┤┐!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
-if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
-if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
+if (Config.LANG == 'RU') ldc = '*╨б╤Б╤Л╨╗╨║╨░ ╨╛╨▒╨╜╨░╤А╤Г╨╢╨╡╨╜╨░!*'
+if (Config.LANG == 'HI') ldc = '*рд▓рд┐рдВрдХ рдХрд╛ рдкрддрд╛ рдЪрд▓рд╛!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
@@ -189,6 +189,6 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
             if (us) return;
             await message.client.groupRemove(message.jid, [message.data.participant]);         
             await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
-        }
+        }               
     }
 }));
