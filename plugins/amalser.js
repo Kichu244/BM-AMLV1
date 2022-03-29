@@ -54,7 +54,7 @@ if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (therikick_var == 'true' && message.jid !== '120363021605843189@g.us') {
+    if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('thayoli')
         let regex2 = new RegExp('Myre')
         let regex3 = new RegExp('kundan')
