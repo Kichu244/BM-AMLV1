@@ -149,7 +149,7 @@
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
-            "value": "𝐋𝐈𝐒𝐓𝐄𝐍 𝐆𝐔𝐘𝐒, 𝐘𝐎𝐔 𝐇𝐀𝐕𝐄 𝐀𝐍 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍"
+            "value": "🚫𝐋𝐈𝐒𝐓𝐄𝐍 𝐆𝐔𝐘𝐒, 𝐘𝐎𝐔 𝐇𝐀𝐕𝐄 𝐀𝐍 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍🚫"
         },
         "CMD_LIST": {
             "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
@@ -263,22 +263,22 @@
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
             "required": true,
-            "value": "𝐀𝐥𝐢𝐲𝐚 𝐒𝐨𝐧𝐠 𝐈𝐩𝐩𝐨 𝐛𝐞𝐫𝐮𝐦 , 𝐉𝐮𝐬𝐭 𝐖𝐚𝐢𝐭"
+            "value": "⬇️𝐀𝐥𝐢𝐲𝐚 𝐒𝐨𝐧𝐠 𝐈𝐩𝐩𝐨 𝐛𝐞𝐫𝐮𝐦 , 𝐉𝐮𝐬𝐭 𝐖𝐚𝐢𝐭⬇️"
         },
         "SONGU": {
             "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
             "required": true,
-            "value": "𝐒𝐨𝐧𝐠 𝐊𝐢𝐭𝐭𝐢 𝐌𝐰𝐨𝐧𝐮, 𝐇𝐞𝐩𝐩𝐢 𝐀𝐲𝐢𝐥𝐞𝐲𝐲"
+            "value": "⏮️𝐒𝐨𝐧𝐠 𝐊𝐢𝐭𝐭𝐢 𝐌𝐰𝐨𝐧𝐮⏸️𝐇𝐞𝐩𝐩𝐢 𝐀𝐲𝐢𝐥𝐞𝐲𝐲⏭️"
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
-            "value": "𝐀𝐡𝐡 𝐕𝐚𝐧𝐧𝐨, 𝐏𝐢𝐧𝐧𝐞𝐲 𝐄𝐧𝐭𝐡𝐨𝐤𝐞 𝐈𝐧𝐝 𝐕𝐢𝐬𝐡𝐞𝐬𝐡𝐚𝐦"
+            "value": "𝐀𝐡𝐡 𝐕𝐚𝐧𝐧𝐨, 𝐏𝐢𝐧𝐧𝐞𝐲 𝐄𝐧𝐭𝐡𝐨𝐤𝐞 𝐈𝐧𝐝 𝐕𝐢𝐬𝐡𝐞𝐬𝐡𝐚𝐦😌"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "𝐒𝐡𝐞𝐫𝐢 𝐚𝐧𝐧𝐚, 𝐍𝐣𝐧 𝐏𝐨𝐤𝐮𝐚 𝐓𝐭𝐨"      
+            "value": "𝐒𝐡𝐞𝐫𝐢 𝐚𝐧𝐧𝐚, 𝐍𝐣𝐧 𝐏𝐨𝐤𝐮𝐚 𝐓𝐭𝐨🥲👋🏻"      
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
