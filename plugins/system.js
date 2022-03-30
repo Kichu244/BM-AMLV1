@@ -262,7 +262,7 @@ Eg: .dict en_US;lead
 🍒 It sends random jokes_ 
 
 ☃️ .vava 
-🍒 Chat with Pinky.
+🍒 Chat with botmwol.
  Use .molu <message>_ 
 
 ☃️ .owner
@@ -313,11 +313,11 @@ Eg: .dict en_US;lead
 
 ☃️ .caption 
 🍒 changes all captions_ 
-💬 Eg:- : .caption *Made by JulieMwol*
+💬 Eg:- : .caption *Made by BotMwol*
 
 ☃️ .number 
 🍒 change user number_ 
-💬 Eg:- : .number *Made by Amalser*
+💬 Eg:- : .number *Made by Botmwol*
 
 ☃️ .deployer 
 🍒 change user name_ 
