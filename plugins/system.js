@@ -129,7 +129,7 @@ Asena.addCommand({pattern: 'list', fromMe: false, desc: 'command help menu'}, (a
 
 ☃️ .doc 
 🍒 CONVERT TO DOCUMENT AND ADD GIVEN NAME_ 
-💬 Eg:- :.doc pinky *replace pinky with desired name*
+💬 Eg:- :.doc pinky *replace botmwol with desired name*
 
 ☃️ .dict 
 🍒 Use it as a dictionary.
@@ -321,7 +321,7 @@ Eg: .dict en_US;lead
 
 ☃️ .deployer 
 🍒 change user name_ 
-💬 Eg:- : .deployer *Made by Amalser*
+💬 Eg:- : .deployer *Kichu*
 
 ☃️ .handlers 
 🍒 changes handlers_ 
@@ -329,7 +329,7 @@ Eg: .dict en_US;lead
 
 ☃️ .botname 
 🍒 change your bot name_ 
-💬 Eg:- : .botname *name* 
+💬 Eg:- : .botname *BotMwol* 
 
 ☃️ .theri  
 🍒 change your theri commands_ 
