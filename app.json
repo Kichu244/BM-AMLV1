@@ -50,7 +50,7 @@
         "ALIVE_BUTTON": {
             "description": "Set the alive message two name",
             "required": true,
-            "value": "Hello/Hii"
+            "value": "💖/💝"
         },
         "INBO_BLOCK": {
             "description": "Inbox Blocking System. True koduthal ningalude pml vann chila bad words upoayogikunnavare bot block aakum block aakendengil false kodukuka",
@@ -75,7 +75,7 @@
         "ANTİ_LİNK": {
             "description": "Link Blocking System.",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "FAKE_REMOVE": {
             "description": "Fake number removing.",
@@ -144,12 +144,12 @@
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "𝐆𝐑𝐎𝐔𝐏 𝐂𝐋𝐎𝐒𝐄𝐃..."
         },
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
-            "value": "*Helo Machamare..*"
+            "value": "𝐋𝐈𝐒𝐓𝐄𝐍 𝐆𝐔𝐘𝐒, 𝐘𝐎𝐔 𝐇𝐀𝐕𝐄 𝐀𝐍 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍"
         },
         "CMD_LIST": {
             "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
@@ -164,7 +164,7 @@
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
             "required": false,
-            "value": "*UnMuted!*"
+            "value": "𝐆𝐑𝐎𝐔𝐏 𝐎𝐏𝐄𝐍𝐃...."
         },
         "BLOCK_MESSAGE": {
             "description": "Customizable Block Message! Use => default, to change back.",
@@ -179,7 +179,7 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "*_•😈==› KICHU ‹==😈•_*"
+            "value": "•😈==› 𝐊𝐈𝐂𝐇𝐔 ‹==😈•"
         },
         "WORK_TYPE": {
             "description": "Botmwol Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -198,7 +198,7 @@
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
-            "value": "Kichu"
+            "value": "𝐊𝐈𝐂𝐇𝐔"
         },
         "OWNER_NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
@@ -213,7 +213,7 @@
         "DEPLOYER": {
             "description": "enter your name here",
             "required": false,
-            "valuue": "Kichu"
+            "value": "Kichu"
         },
         "REMOVE_BG_API_KEY": {
             "description": "https://remove.bg",
@@ -222,7 +222,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "_Hello, Bot Mwol Is Alive. Created By Kichu_☺️"
+            "value": "𝐁𝐎𝐓𝐌𝐖𝐎𝐋 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄"
             
 
 
@@ -263,32 +263,33 @@
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
             "required": true,
-            "value": "*Downloading your song*"
+            "value": "𝐀𝐥𝐢𝐲𝐚 𝐒𝐨𝐧𝐠 𝐈𝐩𝐩𝐨 𝐛𝐞𝐫𝐮𝐦 , 𝐉𝐮𝐬𝐭 𝐖𝐚𝐢𝐭"
         },
         "SONGU": {
             "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
             "required": true,
-            "value": "*Feel the song*"
+            "value": "𝐒𝐨𝐧𝐠 𝐊𝐢𝐭𝐭𝐢 𝐌𝐰𝐨𝐧𝐮, 𝐇𝐞𝐩𝐩𝐢 𝐀𝐲𝐢𝐥𝐞𝐲𝐲"
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
-            "value": "_Helo Gooyies...🙋🏻‍♂️_"
+            "value": "𝐀𝐡𝐡 𝐕𝐚𝐧𝐧𝐨, 𝐏𝐢𝐧𝐧𝐞𝐲 𝐄𝐧𝐭𝐡𝐨𝐤𝐞 𝐈𝐧𝐝 𝐕𝐢𝐬𝐡𝐞𝐬𝐡𝐚𝐦"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "default"      
+            "value": "𝐒𝐡𝐞𝐫𝐢 𝐚𝐧𝐧𝐚, 𝐍𝐣𝐧 𝐏𝐨𝐤𝐮𝐚 𝐓𝐭𝐨"      
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
-            "value": "*Promoted✅️*"
+            "value": "𝑷𝒓𝒐𝒎𝒐𝒕𝒆𝒅✅️"
+
         },
         "DEMOTE_MESSAGE": {
             "description": "Customizable Demote Message! Use => default, to change back.",
             "required": false,
-            "value": "*Demoted✅️*"
+            "value": "𝑫𝒆𝒎𝒐𝒕𝒆𝒅✅️"
         },
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
