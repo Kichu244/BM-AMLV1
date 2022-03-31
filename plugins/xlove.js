@@ -10,8 +10,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
     var skl = await axios.get("https://i.imgur.com/ygQuzYd.jpeg", { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Bot Name: BOTMWOL*
-*=›* 𝐎𝐰𝐧𝐞𝐫, 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫, 𝐂𝐫𝐞𝐚𝐭𝐨𝐫
-    Number:- https://wa.me/918547487332
+*=›*𝐎𝐰𝐧𝐞𝐫||𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫||𝐂𝐫𝐞𝐚𝐭𝐨𝐫
+    𝑪𝒐𝒏𝒕𝒂𝒄𝒕:- https://wa.me/918547487332
  
 *=›* 𝑮𝑰𝑻𝑯𝑼𝑩 𝑳𝑰𝑵𝑲 𝑰𝑺 𝑵𝑶𝑻 𝑨𝑽𝑨𝑰𝑳𝑨𝑩𝑳𝑬
 
