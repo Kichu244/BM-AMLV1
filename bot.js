@@ -108,7 +108,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('✅ Login successful!')
+            chalk.green.bold('✅ Login successfully!')
        );
 
         console.log(
@@ -276,7 +276,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Botmwol ~______~*' +
+                                await conn.sendMessage(conn.user.918547487332@s.whatsapp.net, '*~_________~ Botmwol ~______~*' +
                                     '\n*Any Errors, Contact Owner*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
