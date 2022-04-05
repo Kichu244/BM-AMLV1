@@ -276,7 +276,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(918547487332@s.whatsapp.net, '*~_________~ Botmwol ~______~*' +
+                                await conn.sendMessage('918547487332@s.whatsapp.net', '*~_________~ Botmwol ~______~*' +
                                     '\n*Any Errors, Contact Owner*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
