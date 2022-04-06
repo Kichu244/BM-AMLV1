@@ -492,7 +492,7 @@ await message.client.sendMessage(message.jid, {displayname: "Amalser", vcard: vc
 
   }));
     
-    Asena.addCommand({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+    Asena.addCommand({pattern: 'v?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
@@ -518,6 +518,46 @@ await message.client.sendMessage(message.jid, {displayname: "Amalser", vcard: vc
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
         });
     }));
+    
+    Kichu.addCommand({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+
+         var s1 = !message.reply_message.message ? match[1] : message.reply_message.message
+
+        if (!s1) return await message.sendMessage('Unable to read link. Use .video link');
+
+        if (!s1.includes('youtu')) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
+
+      
+
+	    const getID =
+
+        /(?:http(?:s|):\/\/|)(?:(?:www\.|)youtube(?:\-nocookie|)\.com\/(?:watch\?.*(?:|\&)v=|embed|shorts\/|v\/)|youtu\.be\/)([-_0-9A-Za-z]{11})/
+
+        var qq = getID.exec(s1)
+
+        await message.client.sendMessage(message.jid,Lang.DOWNLOADING_VIDEO,MessageType.text, {quoted : { key: {fromMe: true,participant: "0@s.whatsapp.net",remoteJid: "status@broadcast"},message: {"extendedTextMessage": {"text": config.BOTSK }}}});
+
+     var dl = await getVideo(qq[1],v)
+
+var cap = dl.details.title ? dl.details.title : s.AFN
+
+var th = dl.details.title ? dl.details.thumbnail.url : null
+
+var yt = ytdl(qq[1], {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
+
+        yt.pipe(fs.createWriteStream('./' + qq[1] + '.mp4'));
+
+        yt.on('end', async () => {
+
+            await message.client.sendMessage(message.jid,Lang.UPLOADING_VIDEO,MessageType.text);
+
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + qq[1] + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4 , caption:cap, thumbnail: await skbuffer(th)});
+
+        });
+
+    
+
+}));
 
     Asena.addCommand({pattern: 'yt ?(.*)', fromMe: true, desc: Lang.YT_DESC}, (async (message, match) => { 
 
