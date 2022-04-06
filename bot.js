@@ -164,12 +164,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '๛ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ✈︎  ͚͚͚ͪͪͪͪͪ͆ͤͭ⭑ ͓͢𝛫𝛪 𝐶 𝛨 𝑈⭑\n';
+                            degisiklikler += '๛ [' + commit.date.substring(0, 10) + ']: ' + commit.message + '*‹* ⭑ ͓͢𝛫𝛪 𝐶 𝛨 𝑈⭑ *›*\n';
                         }
                     );
                     await conn.sendMessage(
                         '918547487332@s.whatsapp.net',
-                        '𝑩𝑶𝑻𝑴𝑾𝑶𝑳 𝑼𝑷𝑫𝑨𝑻𝑬\n\n'+ degisiklikler + '```', MessageType.text
+                        '✈︎   𝑩𝑶𝑻𝑴𝑾𝑶𝑳   𝑼𝑷𝑫𝑨𝑻𝑬   ☆\n\n'+ degisiklikler + '```', MessageType.text
                     ); 
                 } 
           }
