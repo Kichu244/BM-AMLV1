@@ -246,7 +246,7 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "𝑩𝒐𝒕𝒎𝒘𝒐𝒍 𝑰𝒔 𝑼𝒑-𝑻𝒐-𝑫𝒂𝒕𝒆",
-            "NEW_UPDATE": "𝑵𝑬𝑾 𝑼𝑷𝑫𝑨𝑻𝑬 𝑨𝑽𝑨𝑰𝑳𝑨𝑩𝑳𝑬\n\n.update start TO UPDATE\n\n𝑼𝒑𝒅𝒂𝒕𝒆 𝑹𝒆𝒍𝒆𝒂𝒔𝒆𝒅 𝑩𝒚 𝑲𝒊𝒄𝒉𝒖\n\nChanges:\n",
+            "NEW_UPDATE": "𝑵𝑬𝑾 𝑼𝑷𝑫𝑨𝑻𝑬 𝑨𝑽𝑨𝑰𝑳𝑨𝑩𝑳𝑬\n\n      𝑼𝒑𝒅𝒂𝒕𝒆 𝑹𝒆𝒍𝒆𝒂𝒔𝒆𝒅 𝑩𝒚 𝑲𝒊𝒄𝒉𝒖\n\nChanges:-\n",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "𝑼𝒑𝒅𝒂𝒕𝒆 𝑺𝒕𝒂𝒓𝒕𝒆𝒅...𝑱𝒖𝒔𝒕 𝑾𝒂𝒊𝒕...!",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
