@@ -183,8 +183,8 @@ Eg: .dict en_US;lead
 ☃️ .random 
 🍒 word image_ 
 
-☃️ .brdmore 
-🍒 add readmore before your text
+
+
 
 ☃️ .rdmore 
 🍒 add readmore before your text
@@ -369,11 +369,11 @@ Eg: .dict en_US;lead
 ☃️ .unvoice
 🍒 Converts audio to sound recording._ 
 
-☃️ .update
+☃️ .update check
 🍒 Checks the update._ 
 
-☃️ .update now
-🍒 It makes updates._ 
+☃️ .update start
+🍒 It makes updated._ 
 
 ☃️ .wallpaper
 🍒 It sends high resolution wallpapers._ 
