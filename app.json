@@ -258,7 +258,7 @@
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "*{mention} Tata, Bye*"
+            "value": "* Tata, Bye*"
         },
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
