@@ -154,22 +154,22 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('Botmwol 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('☆BOTMWOL IS WORKING IN' + config.WORKTYPE + ' NOW ☆'));
           if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
-                    await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);    
+                    await conn.sendMessage('918547487332@s.whatsapp.net',Lang.UPDATE, MessageType.text);    
                 } else {
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            degisiklikler += '๛ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ✈︎  ͚͚͚ͪͪͪͪͪ͆ͤͭ⭑ ͓͢𝛫𝛪 𝐶 𝛨 𝑈⭑\n';
                         }
                     );
                     await conn.sendMessage(
-                        conn.user.jid,
-                        '```type``` *.update now* ```to update```\n\n```wait..wait..\n\n ask support group before updating' + degisiklikler + '```', MessageType.text
+                        '918547487332@s.whatsapp.net',
+                        '𝑩𝑶𝑻𝑴𝑾𝑶𝑳 𝑼𝑷𝑫𝑨𝑻𝑬\n\n'+ degisiklikler + '```', MessageType.text
                     ); 
                 } 
           }
