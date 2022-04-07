@@ -1,6 +1,6 @@
  
- ​const​ ​{​getVideo​,​skbuffer​}​ ​=​ ​require​(​'raganork-bot'​)​; 
- ​const​ ​skl​ ​=​ ​require​(​'../events'​)​; 
+ ​const​ ​{​getVideo​,​skbuffer​}​ ​=​ ​require​(​'botmwol'​)​; 
+ ​const​ kichu ​=​​require​(​'../events'​)​; 
  ​const​ ​{​MessageType​,​Mimetype​}​ ​=​ ​require​(​'@adiwajshing/baileys'​)​; 
  ​const​ ​translatte​ ​=​ ​require​(​'translatte'​)​; 
  ​const​ ​config​ ​=​ ​require​(​'../config'​)​; 
