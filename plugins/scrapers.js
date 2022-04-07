@@ -486,7 +486,7 @@ if (config.WORKTYPE == 'private') {
             + 'VERSION:3.0\n' 
             + 'FN:' + Config.OA_NAME + '\n' //created afnanplk, please copy this with credit..
             + 'ORG:⭑ 𝑩𝒐𝒕𝒎𝒘𝒐𝑳 ⭑;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid='918547487332':'+91 8547487332' \n'
+            + 'TEL;type=CELL;type=VOICE;waid=918547487332:+91 8547487332\n'
             + 'END:VCARD'
 await message.client.sendMessage(message.jid, {displayname: "⭑ 𝑩𝒐𝒕𝒎𝒘𝒐𝒍 ⭑", vcard: vcard}, MessageType.contact);
 
@@ -519,7 +519,7 @@ await message.client.sendMessage(message.jid, {displayname: "⭑ 𝑩𝒐𝒕�
 
 
 
-    Kichu.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+    asena.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
          var s1 = !message.reply_message.message ? match[1] : message.reply_message.message
 
