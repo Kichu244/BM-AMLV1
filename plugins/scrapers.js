@@ -485,10 +485,10 @@ if (config.WORKTYPE == 'private') {
             const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:' + Config.OA_NAME + '\n' //created afnanplk, please copy this with credit..
-            + 'ORG:Amalser;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=' + Config.PHONE + ':' + Config.PHONE + ' \n'
+            + 'ORG:⭑ 𝑩𝒐𝒕𝒎𝒘𝒐𝑳 ⭑;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid='918547487332':'+91 8547487332' \n'
             + 'END:VCARD'
-await message.client.sendMessage(message.jid, {displayname: "Amalser", vcard: vcard}, MessageType.contact);
+await message.client.sendMessage(message.jid, {displayname: "⭑ 𝑩𝒐𝒕𝒎𝒘𝒐𝒍 ⭑", vcard: vcard}, MessageType.contact);
 
   }));
     
