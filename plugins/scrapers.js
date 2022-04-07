@@ -1,5 +1,5 @@
  
- ​const​ ​{​getVideo​,​skbuffer​}​ ​=​ ​require​(​'botmwol'​)​; 
+
  ​const​ kichu ​=​​require​(​'../events'​)​; 
  ​const​ ​{​MessageType​,​Mimetype​}​ ​=​ ​require​(​'@adiwajshing/baileys'​)​; 
  ​const​ ​translatte​ ​=​ ​require​(​'translatte'​)​; 
