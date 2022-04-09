@@ -116,7 +116,8 @@
             "STOP_DESC": "Stops the filter you added previously.",
             "NEED_FILTER": "*❌ Please type a filter!*\n*Example:*",
             "ALREADY_NO_FILTER": "*❌ There is already no filter like this!*",
-            "DELETED": "*✅ The filter was successfully deleted!*"
+            "DELETED": "*✅ The filter was successfully deleted!*",
+            "MSG_DESC": "𝑰𝒕𝒔 𝑨 𝑭𝒊𝒍𝒕𝒆𝒓 𝑻𝒉𝒂𝒕 𝑨𝒍𝒓𝒆𝒂𝒅𝒚 𝑺𝒆𝒕𝒕𝒆𝒅, 𝑰𝒇 𝑨𝒏𝒚𝒐𝒏𝒆 𝑾𝒓𝒊𝒕𝒆 𝑭𝒊𝒍𝒕𝒆𝒓 𝒎𝒔𝒈, 𝑻𝒉𝒆𝒏 𝑻𝒉𝒊𝒔 𝑭𝒊𝒍𝒕𝒆𝒓 𝒘𝒐𝒓𝒌𝒔"
         },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
