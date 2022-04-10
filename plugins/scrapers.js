@@ -1,6 +1,6 @@
  
 
- ​const​ asena = require​(​'../events'​)​; 
+ ​const​ ​Asena​ ​=​ ​require​(​'../events'​)​; 
  ​const​ ​{​MessageType​,​Mimetype​}​ ​=​ ​require​(​'@adiwajshing/baileys'​)​; 
  ​const​ ​translatte​ ​=​ ​require​(​'translatte'​)​; 
  ​const​ ​config​ ​=​ ​require​(​'../config'​)​; 
