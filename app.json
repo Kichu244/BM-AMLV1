@@ -40,7 +40,7 @@
         "LG_LOGO": {
             "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "https://telegra.ph/file/1986d89402b68b4f4aeca.jpg"
+            "value": "https://i.imgur.com/ZzqO1v5.jpeg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
@@ -217,7 +217,8 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "https://remove.bg",
-            "required": false
+            "required": false,
+            "value": "9ZCtPKYWCT5akQDckxFvqRnH"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
