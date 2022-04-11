@@ -1,7 +1,7 @@
  
- *​/  
+ /*  
  ​CREDITS :- AFNAN PLK
- ​/* 
+ ​*/ 
   
  ​const​ ​MyPnky​ ​=​ ​require​(​'../events'​)​; 
  ​const​ ​{​MessageType​,​Mimetype​}​ ​=​ ​require​(​'@adiwajshing/baileys'​)​; 
